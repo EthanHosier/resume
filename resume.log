@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.10.5)  5 OCT 2025 17:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.10.5)  5 OCT 2025 17:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -371,13 +371,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 4.08003pt, for example:
-(fancyhdr)                \setlength{\footskip}{4.08003pt}.
-
-[2] (./resume.aux)
+(./resume.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -387,16 +381,16 @@ L3 programming layer <2025-01-18>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: C9990B3BD5811AB4227CA2A5C9C721EF;491.
+(rerunfilecheck)             Checksum: A11F37D525FEA76C44E53EE179C7A1B4;264.
  ) 
 Here is how much of TeX's memory you used:
- 10912 strings out of 473190
- 172707 string characters out of 5715800
- 613180 words of memory out of 5000000
- 34039 multiletter control sequences out of 15000+600000
+ 10909 strings out of 473190
+ 172681 string characters out of 5715800
+ 611180 words of memory out of 5000000
+ 34038 multiletter control sequences out of 15000+600000
  564764 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,316b,640s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,316b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -406,10 +400,10 @@ sr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/
 local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
 ocal/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on resume.pdf (2 pages, 123136 bytes).
+Output written on resume.pdf (1 page, 120857 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 74 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
+ 5 named destinations out of 1000 (max. 500000)
+ 25 words of extra memory for PDF output out of 10000 (max. 10000000)
 
