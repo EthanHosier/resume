@@ -114,7 +114,6 @@
 \begin{center}
     \textbf{\Huge \scshape Ethan Hosier} \\ \vspace{1pt}
     \small +44 7476 133726 $|$ \href{mailto:ethan.hosier22@imperial.ac.uk}{\underline{ethan.hosier22@imperial.ac.uk}} $|$ 
-    \href{https://www.ethanhosier.com/}{\underline{https://www.ethanhosier.com/}} $|$
     \href{https://github.com/EthanHosier}{\underline{github.com/EthanHosier}}
 \end{center}
 
@@ -126,7 +125,7 @@
       {Imperial College London}{London, UK}
       {MEng Computing}{Oct. 2022 -- June 2026}
       \resumeItemListStart
-        \resumeItem{Achieved First Class Honours in First \& Second Year}
+        \resumeItem{1st Class Honours in First, Second, and Third Year}
       \resumeItemListEnd
       % \resumeSubheading
       % {Bexley Grammar School}{London, UK}
@@ -162,34 +161,52 @@
 
   \section{Experience}
   \resumeSubHeadingListStart
+     \resumeSubheading
+      {\textbf{Palantir} $|$ \textnormal{\emph{\small{Python, Spark, TypeScript, React.js}}}}{April 2025 -- September 2025}
+      {Forward Deployed Software Engineer, Intern}{London, UK}
+      \resumeItemListStart
+        \resumeItem{Rewrote a legacy data pipeline processing billions of customer transactions, achieving 3.5× faster runtime through caching and optimized parallel execution across distributed Spark clusters.}
+        
+        \resumeItem{Transformed the client’s financial forecasting process by developing a spreadsheet engine from scratch supporting real-time multi-user collaboration, formulas, keyboard shortcuts and configurable templates}
+       
+        \resumeItem{Built an AI model router for Palantir’s internal chat system used by 4,000+ employees, automatically selecting the optimal language model for each conversation.}
+
+
+        \resumeItem{Led meetings with the client’s executives and lead engineers and iterated on features directly with end users.}
+      \resumeItemListEnd
+
+       % \resumeItem{Optimized for performance on older machines, transforming the client’s financial forecasting process by migrating them off traditional spreadsheets to a web application.}
+
     \resumeSubheading
-      {\textbf{Revolut} $|$ \textnormal{\emph{\small{Java, Typescript, React.js}}}}{July 2024 -- September 2024}
+      {\textbf{Revolut} $|$ \textnormal{\emph{\small{Java, TypeScript, React.js, Google Cloud Platform}}}}{July 2024 -- September 2024}
       {Software Engineer, Intern}{London, UK}
       \resumeItemListStart
-        \resumeItem{Designed and implemented the backend of an Authorised Data Source that consolidates product and pricing rule configurations into a single interface, eliminating the need for manual database queries—used in production daily by the CEO and leadership team}
-        \resumeItem{Leveraged concurrency techniques and caching to reduce query latency by 99\%, significantly improving system performance and efficiency}
-        \resumeItem{Integrated with multiple internal services, including the Terms Service to assign legal documents to tax configurations, and the Revolut People Platform to incorporate employee details into the admin app, ensuring seamless interaction across different systems}
+        \resumeItem{Developed the backend of an Authorised Data Source that consolidates product and pricing rule configurations into a single interface, eliminating the need for manual database queries—used in production daily by the CEO and leadership team}
+        \resumeItem{Leveraged concurrency and caching to reduce query latency by 99\%, significantly improving system performance and efficiency}
+        \resumeItem{Integrated with multiple internal services, including the Terms Service to assign legal documents to tax configurations, and the Revolut People Platform to incorporate employee details into the admin app, ensuring seamless interaction across core business systems}
       \resumeItemListEnd
 
       \resumeSubheading
-      {\textbf{Mia Marketing} $|$ \textnormal{\emph{\small{Go, Python, Typescript, React.js, AWS, Microsoft Azure, Docker, Figma}}}}{July 2024 -- Present}
-      {Co-Founder, CTO}{London, UK}
+      {\textbf{Mia Marketing} $|$ \textnormal{\emph{\small{Go, Python, TypeScript, React.js, AWS, Microsoft Azure, Docker}}}}{July 2024 -- September 2024}
+      {Founder}{London, UK}
       \resumeItemListStart
-        \resumeItem{Led the development of an MVP for a fully autonomous AI-driven digital marketing platform, attracting interest from over 40 different companies, including those with annual revenues exceeding £1 million}
+        \resumeItem{Developed an MVP for a fully autonomous AI-driven digital marketing platform, attracting interest from over 40 different companies (revenues of \textgreater£1 million ARR)}
         \resumeItem{Built a scalable, microservices-based infrastructure on AWS and Azure of proxies, web crawlers and scrapers}
         \resumeItem{Developed automated workflows for data-driven social media content creation, posting, and lead generation through personalized email outreach campaigns}
         \resumeItem{Awarded £2,500 in prize money from Imperial College London’s Entrepreneurship Journey, alongside £1,000 in Azure credits from the Microsoft Startup Hub}
       \resumeItemListEnd
 
-    \resumeSubheading
-      {\textbf{321 Restaurants} $|$ \textnormal{\emph{\small{TypeScript, React.js, Next.js, Firebase}}}}{May 2023 -- July 2023}
-      {Full-Stack Software Developer, Founder}{London, UK}
-      \resumeItemListStart
-        \resumeItem{Founded a software startup dedicated to empowering small, independent restaurants through affordable solutions}
-        \resumeItem{Conducted market research to understand industry needs and, as the sole full-stack software developer, developed a comprehensive content management system, dashboard and individualised websites}
-        \resumeItem{Gained valuable experience in product development, market analysis, and demonstrated proficiency in designing and implementing full-stack solutions}
-        % \resumeItem{Technologies: \emph{Typescript, React, Next.js, Firebase.}}
-      \resumeItemListEnd
+    % \resumeSubheading
+    %   {\textbf{321 Restaurants} $|$ \textnormal{\emph{\small{TypeScript, React.js, Next.js, Firebase}}}}{May 2023 -- July 2023}
+    %   {Full-Stack Software Developer, Founder}{London, UK}
+    %   \resumeItemListStart
+    %     \resumeItem{Founded a software startup dedicated to empowering small, independent restaurants through affordable solutions}
+    %     \resumeItem{Conducted market research to understand industry needs and, as the sole full-stack software developer, developed a comprehensive content management system, dashboard and individualised websites}
+    %     \resumeItem{Gained valuable experience in product development, market analysis, and demonstrated proficiency in designing and implementing full-stack solutions}
+    %     % \resumeItem{Technologies: \emph{Typescript, React, Next.js, Firebase.}}
+    %   \resumeItemListEnd
+
+
       \resumeSubHeadingListEnd
       
 %-----------Hackathons-----------
@@ -216,26 +233,35 @@
 %       \resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------
-\section{Projects}
+\section{Selected Technical Projects}
     \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+    {\textbf{Distributed Web Crawler \& RAG Pipeline} $|$ \textnormal{\emph{\small{Go, TypeScript, AWS, Redis, Terraform, Docker}}}}{March 2025}
+    \resumeItemListStart
+      \resumeItem{Built a distributed web crawler and RAG pipeline in Go with a custom worker framework supporting pluggable task types and Redis-based inter-node communication.}
+      \resumeItem{Deployed on AWS ECS (Fargate) with infrastructure provisioned via Terraform, Lambdas, and CloudWatch metrics to enable auto-scaling based on queue size and throughput.}
+      \resumeItem{Achieved the ability to scrape and index the entire Imperial College website in under 3 minutes through optimized text processing, chunking, and embedding inference.}
+      \resumeItem{Integrated the indexed data into a custom AI agent framework used in a pilot project to replace personal tutor workflows with context-aware automated assistance.}
+      \resumeItemListEnd  
 
     \resumeProjectHeading
     {\textbf{WACC Compiler} $|$ \emph{Scala, TypeScript, Next.js}}{January 2024 -- March 2024}
     \resumeItemListStart
       \resumeItem{
-        Developed a compiler for the WACC programming language, handling lexical analysis, semantic analysis, code generation, and optimization. Translates WACC source code into x86-64 machine code}
-      \resumeItem{Built a web-based IDE using Monaco editor and Next.js that allows users to write, compile, and execute WACC code on a web server, with full support for syntax and error highlighting}
+        Developed a compiler for the WACC programming language in Scala, performing lexical and semantic analysis, code generation, and optimization to output x86-64 assembly.}
+      \resumeItem{Built a web-based IDE using Next.js and Monaco Editor to compile and execute WACC code in-browser with syntax highlighting and real-time error feedback}
     \resumeItemListEnd  
 
 
 
-    \resumeProjectHeading
-          {\textbf{Groupify} $|$ \emph{TypeScript, React Native, Supabase}}{May 2024 -- June 2024}
-          \resumeItemListStart
-            \resumeItem{Designed and built a mobile app for university students to find groups for projects, inspired by Tinder}
-            \resumeItem{Implemented a custom matching algorithm, project creation, recommendation features and integrated chat rooms}
-            \resumeItem{Collaborated directly with stakeholders to define and refine requirements, ensuring alignment with user needs}
-          \resumeItemListEnd  
+    % \resumeProjectHeading
+    %       {\textbf{Groupify} $|$ \emph{TypeScript, React Native, Supabase}}{May 2024 -- June 2024}
+    %       \resumeItemListStart
+    %         \resumeItem{Designed and built a mobile app for university students to find groups for projects, inspired by Tinder}
+    %         \resumeItem{Implemented a custom matching algorithm, project creation, recommendation features and integrated chat rooms}
+    %         \resumeItem{Collaborated directly with stakeholders to define and refine requirements, ensuring alignment with user needs}
+    %       \resumeItemListEnd  
           
           
     %       \resumeProjectHeading
