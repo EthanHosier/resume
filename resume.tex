@@ -239,9 +239,10 @@
     \resumeProjectHeading
     {\textbf{Distributed Web Crawler \& RAG Pipeline} $|$ \textnormal{\emph{\small{Go, TypeScript, AWS, Redis, Terraform, Docker}}}}{March 2025}
     \resumeItemListStart
-      \resumeItem{Built a distributed web crawler and RAG pipeline in Go with a custom worker framework supporting pluggable task types and Redis-based inter-node communication.}
+      % \resumeItem{Built a distributed web crawler and RAG pipeline in Go with a custom worker framework supporting pluggable task types and Redis-based inter-node communication.}
+      \resumeItem{Built a distributed worker framework in Go supporting pluggable task types and Redis-based inter-node communication.}
+      \resumeItem{Used the framework to build a distributed web crawler and RAG pipeline, achieving the ability to scrape and index the entire Imperial College website in under 3 minutes.}
       \resumeItem{Deployed on AWS ECS (Fargate) with infrastructure provisioned via Terraform, Lambdas, and CloudWatch metrics to enable auto-scaling based on queue size and throughput.}
-      \resumeItem{Achieved the ability to scrape and index the entire Imperial College website in under 3 minutes through optimized text processing, chunking, and embedding inference.}
       \resumeItem{Integrated the indexed data into a custom AI agent framework used in a pilot project to replace personal tutor workflows with context-aware automated assistance.}
       \resumeItemListEnd  
 
