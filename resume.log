@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.10.5)  5 OCT 2025 17:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.10.5)  7 OCT 2025 17:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -353,13 +353,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 126.
 LaTeX Font Info:    Trying to load font information for OML+cmr on input line 1
-93.
+94.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 193.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 194.
 
 
 
@@ -386,7 +386,7 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 Here is how much of TeX's memory you used:
  10911 strings out of 473190
  172701 string characters out of 5715800
- 612180 words of memory out of 5000000
+ 613180 words of memory out of 5000000
  34039 multiletter control sequences out of 15000+600000
  564764 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -400,7 +400,7 @@ sr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/
 local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
 ocal/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on resume.pdf (1 page, 121308 bytes).
+Output written on resume.pdf (1 page, 121363 bytes).
 PDF statistics:
  78 PDF objects out of 1000 (max. 8388607)
  56 compressed objects within 1 object stream
