@@ -65,7 +65,7 @@
 % Custom commands
 \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1 \vspace{-2pt}}
+    {#1\vspace{-2pt}}
   }
 }
 
@@ -248,12 +248,20 @@
 %      \resumeItemListEnd
 
     \resumeProjectHeading
+    {\textbf{PintOS Operating System Kernel} $|$ \emph{C}}{}
+    \resumeItemListStart
+      \resumeItem{Implemented demand paging with clock-based page replacement, swapping, stack growth and memory-mapped files}
+      \resumeItem{Added argument passing and process creation/wait handling for user programs, and implemented system calls for process control and I/O}
+      \resumeItem{Implemented priority-based kernel thread scheduling with priority donation and a multilevel feedback queue}
+    \resumeItemListEnd
+
+    \resumeProjectHeading
     {\textbf{WACC Compiler} $|$ \emph{Scala}}{}
     \resumeItemListStart
       \resumeItem{Implemented WACC parsing and semantic checks in Scala, including type checking and scoped symbol resolution}
       \resumeItem{Generated x86-64 assembly for functions, arrays, pairs, and control flow, with stack and register allocation}
       \resumeItem{Implemented constant folding, function inlining, dead code elimination and peephole optimisations, reducing execution time by 12\%}
-    \resumeItemListEnd  
+    \resumeItemListEnd
 
 
 
