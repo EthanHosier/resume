@@ -163,13 +163,13 @@
       {\textbf{Palantir} $|$ \textnormal{\emph{\small{Python, Spark, TypeScript, React.js}}}}{April 2025 -- September 2025}
       {Forward Deployed Software Engineer, Intern}{London, UK}
       \resumeItemListStart
-        \resumeItem{Rewrote a legacy data pipeline processing billions of customer transactions every hour, achieving 3.5× faster runtime through caching and optimized parallel execution across distributed Spark clusters}
+        \resumeItem{Parallelised a graph-based Spark pipeline processing billions of transactions/hour, reducing execution time by 71\%.}
+        \resumeItem{Introduced caching of intermediate results and incremental processing to avoid full graph recomputation.}
         
-        \resumeItem{Transformed the client’s financial forecasting process by developing a spreadsheet engine from scratch supporting real-time multi-user collaboration, formulas, keyboard shortcuts and configurable templates}
+        \resumeItem{Developed a spreadsheet engine supporting real-time multi-user collaboration, formulas and keyboard shortcuts}
        
-        \resumeItem{Built an AI model router for Palantir’s internal chat system with 4,000+ users, automatically selecting the optimal language model for each conversation}
+        \resumeItem{Built an AI model router for Palantir’s internal chat system with 4,000+ users}
 
-        \resumeItem{Led meetings with the client’s executives and lead engineers, and iterated on features directly with end users}
 
         % \resumeItem{Led meetings with the client’s executives and lead engineers and iterated on features directly with end users.}
       \resumeItemListEnd
@@ -177,13 +177,13 @@
        % \resumeItem{Optimized for performance on older machines, transforming the client’s financial forecasting process by migrating them off traditional spreadsheets to a web application.}
 
     \resumeSubheading
-    {\textbf{Revolut} $|$ \textnormal{\emph{\small{Java, TypeScript, React.js, Kafka, Google Cloud Platform}}}}{July 2024 -- September 2024}
+    {\textbf{Revolut} $|$ \textnormal{\emph{\small{Java, TypeScript, React.js, PostgreSQL, Google Cloud Platform}}}}{July 2024 -- September 2024}
     {Software Engineer, Intern}{London, UK}
     \resumeItemListStart
-      \resumeItem{Developed the backend of an Authorised Data Source consolidating product and pricing-rule configurations into a single interface—used daily by the CEO and leadership team—eliminating manual database queries}
       % \resumeItem{Reduced query latency by 99\% and cut DB reads to near-zero by consuming product/pricing change events from a Postgres-backed event stream into a local in-process cache and serving price calculations directly from the cache instead of the database}
-      \resumeItem{Reduced query latency by 99\% and cut DB reads to near-zero by consuming product/pricing change events from a Kafka topic into a local in-process cache and serving price calculations directly from the cache instead of the DB.}
-      \resumeItem{Integrated with internal services including the Legal Service (document assignment to tax configurations) and the People Platform (employee data in the admin app), ensuring seamless interaction across core business systems}
+      \resumeItem{Developed an in-process cache updated from a Postgres event stream, reducing query latency by 92\%.}
+      \resumeItem{Reduced production pricing-rule execution time by 24\% through caching and parallelising independent calculations.}
+      \resumeItem{Built a dashboard for product and pricing-rule configurations, used daily by the CEO and leadership team.}
     \resumeItemListEnd
 
 %
@@ -386,7 +386,7 @@
 %-----------SKILLS-----------
 \section{Technical Skills}
 \resumeSubHeadingListStart
-    \resumeItem{Java, Go, Python, TypeScript, Docker, AWS, React.js, Next.js, Redis, Terraform, Spark, Kafka}
+    \resumeItem{Rust, C/C++, Kotlin, Java, Python, Go, TypeScript, AWS, React.js, Terraform}
 \resumeSubHeadingListEnd
 
 %-------------------------------------------
