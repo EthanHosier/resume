@@ -45,6 +45,7 @@
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
 \addtolength{\topmargin}{-.5in}
+\addtolength{\topmargin}{-5pt}
 \addtolength{\textheight}{1.0in}
 
 \urlstyle{same}
@@ -70,7 +71,7 @@
 }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
+  \item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textnormal{\small#3} & \textit{\small #4} \\
@@ -167,7 +168,7 @@
       \resumeExperienceItemListStart
         \resumeItem{Architected a lock-free staging and compaction pipeline for concurrent graph updates, resolving read-compute-write races while preserving consistency.}
         \resumeItem{Optimised graph compaction with parallel workers and no-op filtering and eliminated index bloat through automated staging table truncation, cutting latency from 39.25\,ms to 0.047\,ms.}
-        \resumeItem{Redesigned a market-risk scenario engine's temporal cache, eliminating recurring OOMs by reducing memory usage from approximately 70\,GB across 250,000 entries to under 200\,MB across 146 entries and enabling full historical backfills.}
+        \resumeItem{Redesigned a market-risk scenario engine's temporal cache, eliminating recurring OOMs by reducing memory usage from 70\,GB across 250,000 entries to under 200\,MB across 146 entries and enabling full historical backfills.}
         \resumeItem{Diagnosed an unbounded backpressure gap in an external library and patched its internal streaming buffer to cap queued data, preventing multi-GB memory growth and OOMs during S3 exports.}
       \resumeItemListEnd
 
