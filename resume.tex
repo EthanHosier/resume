@@ -98,6 +98,8 @@
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeExperienceItemListStart}{\begin{itemize}\addtolength{\itemsep}{2pt}}
+\newcommand{\resumeProjectItemListStart}{\begin{itemize}\addtolength{\itemsep}{1pt}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 %-------------------------------------------
@@ -162,7 +164,7 @@
     \resumeSubheading
       {Qube Research \& Technologies (QRT) $|$ \textnormal{\emph{\small{Kotlin, Python, AWS}}}}{Jun 2026--Present}
       {Software Engineer, Intern}{}
-      \resumeItemListStart
+      \resumeExperienceItemListStart
         \resumeItem{Architected a lock-free staging and compaction pipeline for concurrent graph updates, resolving read-compute-write races while preserving consistency.}
         \resumeItem{Optimised graph compaction with parallel workers and no-op filtering and eliminated index bloat through automated staging table truncation, cutting latency from 39.25\,ms to 0.047\,ms.}
         \resumeItem{Redesigned a market-risk scenario engine's temporal cache, eliminating recurring OOMs by reducing memory usage from approximately 70\,GB across 250,000 entries to under 200\,MB across 146 entries and enabling full historical backfills.}
@@ -172,7 +174,7 @@
      \resumeSubheading
       {\textbf{Palantir} $|$ \textnormal{\emph{\small{Python, Spark, TypeScript}}}}{Apr--Sep 2025}
       {Forward Deployed Software Engineer, Intern}{London, UK}
-      \resumeItemListStart
+      \resumeExperienceItemListStart
         \resumeItem{Re-architected a Spark entity-resolution pipeline linking billions of transactions across millions of customers, parallelising customer clustering and transaction attribution, then joining results to cut execution time by 71\%.}
         \resumeItem{Designed incremental graph processing that consumed only new records, identified affected customer and transaction clusters, and selectively recomputed them instead of rebuilding the entire graph.}
         \resumeItem{Optimised distributed execution through broadcast joins, dataset indexing and persisted intermediate results, eliminating large shuffles and redundant Spark recomputation.}
@@ -189,7 +191,7 @@
     \resumeSubheading
     {\textbf{Revolut} $|$ \textnormal{\emph{\small{Java, TypeScript, React.js, PostgreSQL, Google Cloud Platform}}}}{Jul--Sep 2024}
     {Software Engineer, Intern}{London, UK}
-    \resumeItemListStart
+    \resumeExperienceItemListStart
       % \resumeItem{Reduced query latency by 99\% and cut DB reads to near-zero by consuming product/pricing change events from a Postgres-backed event stream into a local in-process cache and serving price calculations directly from the cache instead of the database}
       \resumeItem{Replaced repeated queries and full recomputation of global product configurations with an in-process cache incrementally updated from a PostgreSQL event stream, reducing query latency by 92\%.}
       \resumeItem{Reduced production pricing-rule execution time by 24\% through caching and parallelising independent calculations.}
@@ -259,7 +261,7 @@
 
     \resumeProjectHeading
     {\textbf{PintOS Operating System Kernel} $|$ \emph{C}}{}
-    \resumeItemListStart
+    \resumeProjectItemListStart
       \resumeItem{Implemented demand paging with clock-based page replacement, swapping, stack growth and memory-mapped files}
       \resumeItem{Added argument passing and process creation/wait handling for user programs, and implemented system calls for process control and I/O}
       \resumeItem{Implemented priority-based kernel thread scheduling with priority donation and a multilevel feedback queue}
@@ -267,14 +269,14 @@
 
     \resumeProjectHeading
     {\textbf{Refactoring Analysis \& Synthesis Tool} $|$ \emph{Kotlin, Java, TypeScript}}{}
-    \resumeItemListStart
+    \resumeProjectItemListStart
       \resumeItem{Reconstructed IDE events as replayable Git histories and synthesised alternative refactoring sequences using dependency graphs and prefix-trie search.}
       \resumeItem{Achieved 83.9\% category-level accuracy across four detection categories on 45 controlled evaluation sessions.}
     \resumeItemListEnd
 
     \resumeProjectHeading
     {\textbf{WACC Compiler} $|$ \emph{Scala}}{}
-    \resumeItemListStart
+    \resumeProjectItemListStart
       \resumeItem{Built a Scala compiler with parsing, type checking, scoped symbol resolution and x86-64 code generation.}
       \resumeItem{Implemented constant folding, function inlining, dead code elimination and peephole optimisations, reducing execution time by 12\%}
     \resumeItemListEnd
