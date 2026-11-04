@@ -116,9 +116,10 @@
 % \end{tabular*}
 
 \begin{center}
-    \textbf{\Huge \scshape Ethan Hosier} \\ \vspace{1pt}
+    \textbf{\Huge \scshape Ethan Hosier} \\ \vspace{3pt}
     \small +44 7476 133726 $|$ \href{mailto:ethanjhosier@gmail.com}{\underline{ethanjhosier@gmail.com}} $|$ 
-    \href{https://github.com/EthanHosier}{\underline{github.com/EthanHosier}}
+    \href{https://github.com/EthanHosier}{\underline{github.com/EthanHosier}} $|$
+    \href{https://www.linkedin.com/in/ethan-hosier}{\underline{linkedin.com/in/ethan-hosier}}
 \end{center}
 
 
@@ -167,18 +168,18 @@
       {Software Engineer, Intern}{}
       \resumeExperienceItemListStart
         \resumeItem{Architected a lock-free staging and compaction pipeline for concurrent graph updates, resolving read-compute-write races while preserving consistency.}
-        \resumeItem{Optimised graph compaction with parallel workers and no-op filtering and eliminated index bloat through automated staging table truncation, cutting latency from 39.25\,ms to 0.047\,ms.}
-        \resumeItem{Redesigned a market-risk scenario engine's temporal cache, eliminating recurring OOMs by reducing memory usage from 70\,GB across 250,000 entries to under 200\,MB across 146 entries and enabling full historical backfills.}
+        \resumeItem{Optimised graph compaction with parallel workers and no-op filtering and eliminated index bloat through automated staging table truncation, cutting latency from \textbf{39.25\,ms to 0.047\,ms}.}
+        \resumeItem{Redesigned a market-risk scenario engine's temporal cache, eliminating recurring OOMs by reducing memory usage from \textbf{70\,GB} across 250,000 entries to \textbf{under 200\,MB} across 146 entries and enabling full historical backfills.}
         \resumeItem{Diagnosed an unbounded backpressure gap in an external library and patched its internal streaming buffer to cap queued data, preventing multi-GB memory growth and OOMs during S3 exports.}
       \resumeItemListEnd
 
      \resumeSubheading
-      {\textbf{Palantir} $|$ \textnormal{\emph{\small{Python, Spark, TypeScript}}}}{Apr--Sep 2025}
-      {Forward Deployed Software Engineer, Intern}{London, UK}
+      {\textbf{Palantir} $|$ \textnormal{\emph{\small{Python, Spark, TypeScript}}}}{Apr 2025--Sep 2025}
+      {Forward Deployed Software Engineer, Intern}{}
       \resumeExperienceItemListStart
-        \resumeItem{Re-architected a Spark entity-resolution pipeline linking billions of transactions across millions of customers, parallelising customer clustering and transaction attribution, then joining results to cut execution time by 71\%.}
-        \resumeItem{Designed incremental graph processing that consumed only new records, identified affected customer and transaction clusters, and selectively recomputed them instead of rebuilding the entire graph.}
-        \resumeItem{Optimised distributed execution through broadcast joins, dataset indexing and persisted intermediate results, eliminating large shuffles and redundant Spark recomputation.}
+        \resumeItem{Re-architected a Spark entity-resolution pipeline linking billions of transactions across millions of customers, parallelising customer clustering and transaction attribution, then joining results to cut execution time by \textbf{71\%}.}
+        \resumeItem{Optimised distributed execution through broadcast joins, dataset indexing and persisted intermediate results, selectively recomputing affected clusters to eliminate full-graph rebuilds.}
+        \resumeItem{Transformed the client’s financial forecasting process by developing a spreadsheet engine from scratch supporting real-time multi-user collaboration, formulas, keyboard shortcuts and configurable templates}
         
         % \resumeItem{Built a real-time collaborative spreadsheet engine supporting formulas and keyboard-driven editing, migrating the client's financial forecasting workflow to Palantir Foundry.}
        
@@ -190,11 +191,11 @@
        % \resumeItem{Optimized for performance on older machines, transforming the client’s financial forecasting process by migrating them off traditional spreadsheets to a web application.}
 
     \resumeSubheading
-    {\textbf{Revolut} $|$ \textnormal{\emph{\small{Java, TypeScript, React.js, PostgreSQL, Google Cloud Platform}}}}{Jul--Sep 2024}
-    {Software Engineer, Intern}{London, UK}
+    {\textbf{Revolut} $|$ \textnormal{\emph{\small{Java, TypeScript, React.js, PostgreSQL, Google Cloud Platform}}}}{Jul 2024--Sep 2024}
+    {Software Engineer, Intern}{}
     \resumeExperienceItemListStart
       % \resumeItem{Reduced query latency by 99\% and cut DB reads to near-zero by consuming product/pricing change events from a Postgres-backed event stream into a local in-process cache and serving price calculations directly from the cache instead of the database}
-      \resumeItem{Replaced repeated queries and full recomputation of global product configurations with an in-process cache incrementally updated from a PostgreSQL event stream, reducing query latency by 92\%.}
+      \resumeItem{Replaced repeated queries and full recomputation of global product configurations with an in-process cache incrementally updated from a PostgreSQL event stream, reducing query latency by \textbf{92\%}.}
       \resumeItem{Reduced production pricing-rule execution time by 24\% through caching and parallelising independent calculations.}
       \resumeItem{Built a dashboard for product and pricing-rule configurations, used daily by the CEO and leadership team, eliminating the need for manual SQL queries.}
     \resumeItemListEnd
@@ -405,7 +406,7 @@
 %-----------SKILLS-----------
 \section{Technical Skills}
 \resumeSubHeadingListStart
-    \resumeItem{Rust, C/C++, Kotlin, Java, Python, Go, TypeScript, AWS, React.js, Terraform}
+    \resumeItem{Rust, C/C++, Kotlin, Java, Python, Go, TypeScript, AWS, React.js, Terraform, PostgreSQL, Haskell}
 \resumeSubHeadingListEnd
 
 %-------------------------------------------
